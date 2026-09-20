@@ -11,7 +11,7 @@ public class ConexionDAO {
     }
 
     public String construirUrl() {
-        return "jdbc:mysql://localhost/" + conexion.getBaseDatos();
+        return "jdbc:mysql://localhost/" + conexion.getBasedatos();
     }
 
     public String   describir( ) {
