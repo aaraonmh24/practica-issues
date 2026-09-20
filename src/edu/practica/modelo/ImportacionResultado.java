@@ -3,22 +3,22 @@ package edu.practica.modelo;
 public class ImportacionResultado {
 
     private final int filasOk;
-    private final int fillasFallidas;
+    private final int filasFallidas;
 
-    public ImportacionResultado(int filasOk, int fillasFallidas) {
+    public ImportacionResultado(int filasOk, int filasFallidas) {
         this.filasOk = filasOk;
-        this.fillasFallidas = fillasFallidas;
+        this.filasFallidas = filasFallidas;
     }
 
     public int getFilasOk() {
         return filasOk;
     }
 
-    public int getFillasFallidas() {
-        return fillasFallidas;
+    public int getFilasFallidas() {
+        return filasFallidas;
     }
 
     public int total() {
-        return filasOk + fillasFallidas;
+        return filasOk + filasFallidas;
     }
 }

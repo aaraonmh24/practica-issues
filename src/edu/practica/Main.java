@@ -13,6 +13,6 @@ public class Main {
         System.out.println(dao.describir());
 
         ImportacionResultado r = new Importador().importar("datos.csv");
-        System.out.println("Fallidas: " + r.getFillasFallidas() + " de " + r.total());
+        System.out.println("Fallidas: " + r.getFilasFallidas() + " de " + r.total());
     }
 }
